@@ -24,12 +24,19 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="绘制" />
+
+        <Button
+            android:id="@+id/op"
+            android:onClick="op"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="抽取骨干" />
     </LinearLayout>
 
-    <com.example.handwriting.view.HandwritingView
+    <com.example.handwriting.HandWritingView
         android:id="@+id/handwrite"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_marginTop="20dp" />
 
 </LinearLayout>
